@@ -1,0 +1,20 @@
+{
+  "files.exclude": {
+    "node_modules/": true,
+    "compiled/": false,
+    "dist/": true,
+    "npm-debug.log": true
+  },
+  "search.exclude": {
+    "node_modules/": false,
+    "compiled/": true,
+    "dist/": true,
+    "dll/": true,
+    "coverage/": true
+  },
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "typescript.extension.sortImports.maxNamedImportsInSingleLine": 6,
+  "typescript.extension.sortImports.sortOnSave": true
+}
