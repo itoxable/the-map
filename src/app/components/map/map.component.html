@@ -511,7 +511,7 @@
 			" />
     </g>
     <path id="enabled" style="fill:#fff;stroke:#000;stroke-width:1" d="
-		M 0,0 l 10,10 m -10,0 l 10,-10 m -10,0 h 10 v 10 h -10 z
+		M 0,0 l 20,20 m -20,0 l 20,-20 m -20,0 h 20 v 20 h -20 z
 		" />
     <g id="bus" transform="scale(0.8)">
       <path fill="#000" d="
@@ -540,9 +540,9 @@
           pink card reader (route validator) for potential fare discount.</title>
         <g style="fill:#ffffea;stroke:#eca;stroke-width:1">
           <use xlink:href="#zone1_base" />
-          <rect x="-20" y="-35" width="410" height="20" rx="10" />
+          <rect x="-25" y="-25" width="410" height="20" rx="10" />
         </g>
-        <text x="-10" y="-21" fill="#753" font-size="14px">Fare zone 1. Journey via this zone charges significantly more.</text>
+        <text x="-10" y="-11" fill="#753" font-size="14px">Fare zone 1. Journey via this zone charges significantly more.</text>
         <g font-size="20px" fill="#edc" class="b mid">
           <text x="1065" y="700">Zone 1</text>
           <text x="1320" y="820">Zone 1</text>
@@ -1038,12 +1038,12 @@
   </g>
   <g id="zone_switch" style="opacity:0;cursor:pointer">
     <g id="zone_switch_base">
-      <rect x="-25" y="-80" width="10" height="10" style="fill:#fff;stroke:#000;stroke-width:1" />
-      <text x="-10" y="-70" font-size="14px">Show fare zones</text>
+      <rect x="-25" y="-80" width="20" height="20" style="fill:#fff;stroke:#000;stroke-width:1" />
+      <text x="5" y="-65" font-size="14px">Show fare zones</text>
     </g>
     <g id="zone_switch_over" style="visibility:hidden;opacity:0">
       <use xlink:href="#enabled" x="-25" y="-80" />
-      <text x="-10" y="-70" style="stroke:#000;stroke-width:0.5;font-size:14px">Show fare zones</text>
+      <text x="5" y="-65" style="stroke:#000;stroke-width:0.5;font-size:14px">Show fare zones</text>
       <set begin="zone_switch_base.click" end="zone_switch_over.click" attributeName="visibility" attributeType="CSS" to="visible"
       />
       <set begin="zone_switch_base.click" end="zone_switch_over.click" attributeName="opacity" attributeType="CSS" to="1" />
@@ -2673,7 +2673,7 @@
       <path class="osi" d="M 1682,113 L 1700.75,138">
         <title>0.4-mile walking distance within 25 minutes</title>
       </path>
-      <use xlink:href="#int" x="1682" y="113" id="Walthamstow_Central" />
+      <use xlink:href="#int" x="1682" y="113" id="Walthamstow_Central" (click)=testx()/>
       <use xlink:href="#int" x="1700.75" y="138" id="Walthamstow_Queens_Road" />
       <use xlink:href="#int" x="1158" y="408" id="Warren_Street" />
       <g>
@@ -3463,8 +3463,8 @@
   </defs>
   <g id="acc_switch" style="opacity:0;cursor:pointer">
     <g id="acc_switch_base">
-      <rect x="-25" y="-55" width="10" height="10" style="fill:#fff;stroke:#000;stroke-width:1" />
-      <text x="-10" y="-45" font-size="14px">Show step-free accessibility</text>
+      <rect x="-25" y="-55" width="20" height="20" style="fill:#fff;stroke:#000;stroke-width:1" />
+      <text x="5" y="-40" font-size="14px">Show step-free accessibility</text>
     </g>
     <g id="acc_switch_over" style="visibility:hidden;opacity:0">
       <use xlink:href="#enabled" x="-25" y="-55" />

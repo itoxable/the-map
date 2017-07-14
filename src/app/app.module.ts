@@ -7,7 +7,7 @@ import { MapComponent } from './components/map/map.component';
 import { NgModule, NO_ERRORS_SCHEMA } from '@angular/core';
 import { RouterModule } from '@angular/router';
 
-
+// AIzaSyB4714tBSLWdP1-KudBRLbmFkd7sFSbD1c
 @NgModule({
   declarations: [
     AppComponent,
