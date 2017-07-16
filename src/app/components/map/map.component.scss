@@ -1,0 +1,282 @@
+:host {
+  width: 100%;
+  height: 100%;
+  display: block
+}
+
+:host svg {
+  // width: 100%;
+  // height: 100%;
+}
+
+svg {
+  text {
+    font-family: Arimo, Liberation Sans, HammersmithOne, Helvetica, Arial, sans-serif
+  }
+  .textbg {
+    stroke: #fff;
+    stroke-width: 3;
+    stroke-linejoin: round
+  }
+  .zone {
+    font-size: 35px;
+    font-weight: bold;
+    text-anchor: middle
+  }
+  .st {
+    font-size: 14px;
+    fill: #000
+  }
+  .small {
+    font-size: 11px;
+    fill: #000
+  }
+  .intline {
+    font-size: 11px;
+    fill: #fff
+  }
+  .x {
+    fill: #999
+  }
+  .b {
+    font-weight: bold
+  }
+  .mid {
+    text-anchor: middle
+  }
+  .end {
+    text-anchor: end
+  }
+  .ul {
+    text-decoration: underline;
+    cursor: help
+  }
+  .me {
+    fill: none;
+    stroke-width: 5
+  }
+  .mes {
+    fill: none;
+    stroke-width: 1.5;
+    stroke: #fff;
+    stroke-linecap: round
+  }
+  .meb {
+    fill: none;
+    stroke-width: 5.5
+  }
+  .xb {
+    stroke-dasharray: 2, 4
+  }
+  .mex {
+    fill: none;
+    stroke-width: 2;
+    stroke: #fff
+  }
+  .ftfl {
+    fill: #009
+  }
+  .fbakerloo {
+    fill: #894E24
+  }
+  .sbakerloo {
+    stroke: #894E24
+  }
+  .fcentral {
+    fill: #DC241F
+  }
+  .scentral {
+    stroke: #DC241F
+  }
+  .fcircle {
+    fill: #d90
+  }
+  .scircle {
+    stroke: #FFCE00
+  }
+  .bcircle {
+    stroke: #d90
+  }
+  .fdistrict {
+    fill: #007229
+  }
+  .sdistrict {
+    stroke: #007229
+  }
+  .fhnc {
+    fill: #c78
+  }
+  .shnc {
+    stroke: #D799AF
+  }
+  .bhnc {
+    stroke: #c78
+  }
+  .fjubilee {
+    fill: #777
+  }
+  .sjubilee {
+    stroke: #868F98
+  }
+  .fmetropolitan {
+    fill: #826
+  }
+  .smetropolitan {
+    stroke: #751056
+  }
+  .fnorthern {
+    fill: #000
+  }
+  .snorthern {
+    stroke: #000
+  }
+  .fpiccadilly {
+    fill: #0019A8
+  }
+  .spiccadilly {
+    stroke: #0019A8
+  }
+  .fvictoria {
+    fill: #09d
+  }
+  .svictoria {
+    stroke: #00A0E2
+  }
+  .fwnc {
+    fill: #5b9
+  }
+  .swnc {
+    stroke: #76D0BD
+  }
+  .swnc2 {
+    stroke: #0019A8;
+    stroke-width: 0.5;
+    fill: none
+  }
+  .fdlr {
+    fill: #00a4a7
+  }
+  .sdlr {
+    stroke: #00a4a7
+  }
+  .sdlr2 {
+    stroke: #fff;
+    stroke-width: 1;
+    fill: none
+  }
+  .fog {
+    fill: #E87511
+  }
+  .fogx {
+    fill: #fb5
+  }
+  .sog {
+    stroke: #E87511
+  }
+  .sogx {
+    stroke: #fb5
+  }
+  .fcrossrail {
+    fill: #7156A5
+  }
+  .scrossrail {
+    stroke: #7156A5
+  }
+  .ftflrail {
+    fill: #0019A8
+  }
+  .stflrail {
+    stroke: #0019A8
+  }
+  .fgreenford {
+    fill: #177f0b
+  }
+  .sgreenford {
+    stroke: #177f0b
+  }
+  .stl {
+    stroke: #6C0;
+    stroke-width: 2;
+    fill: none
+  }
+  .ftl {
+    fill: #5b0
+  }
+  .rn {
+    fill: #99f
+  }
+  .osib {
+    fill: none;
+    stroke: #fff;
+    stroke-width: 4
+  }
+  .osi {
+    fill: none;
+    stroke: #009;
+    stroke-width: 2;
+    cursor: help
+  }
+  .branch {
+    stroke: #fff;
+    stroke-width: 3;
+    stroke-dasharray: 4;
+    fill: none
+  }
+  .tleg:hover {
+    fill: #009;
+    stroke-width: 1;
+    stroke: #009;
+    cursor: pointer
+  }
+  .tleg:active {
+    cursor: progress
+  }
+  .toff:hover {
+    cursor: pointer
+  }
+  .toff:active {
+    cursor: progress
+  }
+  .blink {
+    fill: none;
+    stroke-width: 12;
+    stroke-linecap: round;
+    opacity: 0;
+    visibility: hidden;
+    cursor: pointer
+  }
+  .pointer {
+    cursor: pointer
+  }
+  .progress:active {
+    cursor: progress
+  }
+  .zone_layer {
+    visibility: hidden
+  }
+  .acc_layer {
+    visibility: hidden
+  }
+  .doublezone {
+    fill: #efe;
+    stroke: #aaa;
+    stroke-width: 1
+  }
+  .zonefw {
+    font-size: 35px;
+    fill: #fff;
+    stroke: #ddd;
+    stroke-width: 1
+  }
+  .zonefg {
+    font-size: 35px;
+    fill: #efefef;
+    stroke: #ddd;
+    stroke-width: 1
+  }
+  .zonedf {
+    font-size: 13px;
+    fill: #999;
+    stroke: none
+  }
+}
